@@ -15,4 +15,5 @@ jobs:
 
     - name: Run Shell Script
       run: |
+        chmod 755 script.sh
         ./script.sh
